@@ -1,12 +1,12 @@
-.. :changelog:
+ï»¿.. :changelog:
 
 Histoire
 -------
 
 0.9.9.23(2017)
 ------------------
-Juste quand tu penses que ça finit saute un autre bug! Je me suis perdu en l'absence de 'projet' préalable.
+Juste quand tu penses que Ã§a finit saute un autre bug! Je me suis perdu en l'absence de 'projet' prÃ©alable.
 0.9.9.22(2017)
 ------------------
-Entièrement refacturés, les fichiers json supprimés, les paquets class et const ajoutés 
+EntiÃ¨rement refacturÃ©s, les fichiers json supprimÃ©s, les paquets class et const ajoutÃ©s 
 

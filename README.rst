@@ -1,4 +1,4 @@
-===============================
+ï»¿===============================
 Pub2SDwizard
 ===============================
 
@@ -11,41 +11,41 @@ Pub2SDwizard
 Pourquoi utiliser Pub2SDwizard?
 
  - Dans quel ordre souhaitez-vous qu'ils jouent?
- - Depuis différents appareils et applications
-va les trier de différentes façons, comment les forcez-vous à jouer dans le
-commander vous désirez?
+ - Depuis diffÃ©rents appareils et applications
+va les trier de diffÃ©rentes faÃ§ons, comment les forcez-vous Ã  jouer dans le
+commander vous dÃ©sirez?
  - Alors qu'une simple radio peut lire des fichiers de
-Cartes SD ou clé USB, ils vont probablement trier uniquement sur les noms de fichiers,
-mais les téléphones mobiles peuvent les trier sur leur création ou la date de dernière modification
-ou d'autres balises de métadonnées incorporées. Les tags utilisés dépendent du
-marque et modèle paticulaire de téléphone et ou de l'application, il est en cours d'exécution.
- - Comment organisez-vous les fichiers afin qu'un utilisateur puisse accéder au fichier souhaité, même sur le téléphone le plus simple?</p>
- - Comment créez-vous des listes de lecture que les téléphones les plus avancés peuvent découvrir automatiquement et dans quel format?</p>
- - L'appareil / l'application pourra-t-il afficher les caractères dans vos noms de fichiers?
- - Avez-vous besoin de renommer vos fichiers pour les rendre compatibles avec le système d'exploitation des appareils de vos utilisateurs?</p>
- - Plus tard, quand vous venez d'ajouter de nouveaux fichiers à un
-projet ou réorganiser, comment allez-vous éviter d'avoir à retaper
-tout ce que vous avez entré pour votre projet précédent?
+Cartes SD ou clÃ© USB, ils vont probablement trier uniquement sur les noms de fichiers,
+mais les tÃ©lÃ©phones mobiles peuvent les trier sur leur crÃ©ation ou la date de derniÃ¨re modification
+ou d'autres balises de mÃ©tadonnÃ©es incorporÃ©es. Les tags utilisÃ©s dÃ©pendent du
+marque et modÃ¨le paticulaire de tÃ©lÃ©phone et ou de l'application, il est en cours d'exÃ©cution.
+ - Comment organisez-vous les fichiers afin qu'un utilisateur puisse accÃ©der au fichier souhaitÃ©, mÃªme sur le tÃ©lÃ©phone le plus simple?</p>
+ - Comment crÃ©ez-vous des listes de lecture que les tÃ©lÃ©phones les plus avancÃ©s peuvent dÃ©couvrir automatiquement et dans quel format?</p>
+ - L'appareil / l'application pourra-t-il afficher les caractÃ¨res dans vos noms de fichiers?
+ - Avez-vous besoin de renommer vos fichiers pour les rendre compatibles avec le systÃ¨me d'exploitation des appareils de vos utilisateurs?</p>
+ - Plus tard, quand vous venez d'ajouter de nouveaux fichiers Ã  un
+projet ou rÃ©organiser, comment allez-vous Ã©viter d'avoir Ã  retaper
+tout ce que vous avez entrÃ© pour votre projet prÃ©cÃ©dent?
  - Avez-vous besoin d'ajouter ou de modifier plusieurs
-classe les métadonnées existantes (par exemple, pour ajouter des jaquettes, corriger les droits d'auteur
+classe les mÃ©tadonnÃ©es existantes (par exemple, pour ajouter des jaquettes, corriger les droits d'auteur
 info, liste des contributeurs, ...)?
 
-<p>Pub2SDwizard peut vous guider à travers ce processus, en enregistrant
-décisions, l'exécution de vos ordres de tri ainsi que vous aider à faire
-plusieurs copies de la carte SD résultante à la fois.
+<p>Pub2SDwizard peut vous guider Ã  travers ce processus, en enregistrant
+dÃ©cisions, l'exÃ©cution de vos ordres de tri ainsi que vous aider Ã  faire
+plusieurs copies de la carte SD rÃ©sultante Ã  la fois.
 
 Pub2Sdwizard-outils connexes.
 
 * Free software: MIT license
 * Documentation: https://pub2sd.readthedocs.org.
 
-Caractéristiques
+CaractÃ©ristiques
 --------
 
 * FAIRE
 
-    - Tests ajoutés? passer de unittest à pytest?
-    - Ajouter le support pour Mac dans le code dépendant de la plate-forme?
-    - Ajouter une éjection de masse pour usb / SDcard - dépendant de la plate-forme
+    - Tests ajoutÃ©s? passer de unittest Ã  pytest?
+    - Ajouter le support pour Mac dans le code dÃ©pendant de la plate-forme?
+    - Ajouter une Ã©jection de masse pour usb / SDcard - dÃ©pendant de la plate-forme
     - ?Supporte les fichiers MP4?
 

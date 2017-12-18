@@ -1,5 +1,5 @@
-=======
-Cr�dits
+﻿=======
+Crédits
 =======
 
 Mainteneur

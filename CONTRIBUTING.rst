@@ -1,11 +1,11 @@
-============
+ï»¿============
 Contribuant
 ============
 
-Les contributions sont les bienvenues, et elles sont grandement appréciées! Chaque
-peu aide, et le crédit sera toujours donné.
+Les contributions sont les bienvenues, et elles sont grandement apprÃ©ciÃ©es! Chaque
+peu aide, et le crÃ©dit sera toujours donnÃ©.
 
-Vous pouvez contribuer de plusieurs façons:
+Vous pouvez contribuer de plusieurs faÃ§ons:
 
 Types de contributions
 ----------------------
@@ -13,48 +13,48 @@ Types de contributions
 Signaler les bugs informatiques
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-signaler les bugs informatiques à https://github.com/madskinner/pub2sd/issues.
+signaler les bugs informatiques Ã  https://github.com/madskinner/pub2sd/issues.
 
 Si vous signalez un bug, veuillez inclure:
 
-* Tous les détails concernant votre configuration locale qui pourraient être utiles pour le dépannage.
-* Étapes détaillées pour reproduire le bug.
+* Tous les dÃ©tails concernant votre configuration locale qui pourraient Ãªtre utiles pour le dÃ©pannage.
+* Ã‰tapes dÃ©taillÃ©es pour reproduire le bug.
 
 Corriger les bugs
 ~~~~~~~~~~~~~~~~
 
-Regardez les problèmes de GitHub pour les bugs. Tout ce qui est étiqueté "bug"
-est ouvert à quiconque veut l'implémenter.
+Regardez les problÃ¨mes de GitHub pour les bugs. Tout ce qui est Ã©tiquetÃ© "bug"
+est ouvert Ã  quiconque veut l'implÃ©menter.
 
-Implémenter les fonctionnalités
+ImplÃ©menter les fonctionnalitÃ©s
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Regardez à travers les problèmes de GitHub pour les fonctionnalités. Quoi que ce soit tagué avec "feature"
-est ouvert à quiconque veut l'implémenter.
+Regardez Ã  travers les problÃ¨mes de GitHub pour les fonctionnalitÃ©s. Quoi que ce soit taguÃ© avec "feature"
+est ouvert Ã  quiconque veut l'implÃ©menter.
 
-Écrire quelque documentation
+Ã‰crire quelque documentation
 ~~~~~~~~~~~~~~~~~~~
 
 Pub2SDwizard pourrait toujours utiliser plus de documentation, que ce soit
 dans les documents officiels de Pub2SDwizard, dans docstrings,
-ou même sur le Web dans les articles de blog, articles, et autres.
+ou mÃªme sur le Web dans les articles de blog, articles, et autres.
 
 Soumettre des commentaires
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-La meilleure façon d'envoyer des commentaires est de déposer un problème à https://github.com/madskinner/pub2sd/issues.
+La meilleure faÃ§on d'envoyer des commentaires est de dÃ©poser un problÃ¨me Ã  https://github.com/madskinner/pub2sd/issues.
 
-Si vous proposez une fonctionnalité:
+Si vous proposez une fonctionnalitÃ©:
 
-* Expliquer en détail comment cela fonctionnerait.
-* Gardez la portée aussi étroite que possible, pour le rendre plus facile à mettre en œuvre.
-* Rappelez-vous qu'il s'agit d'un projet dirigé par des bénévoles, et que les contributions
+* Expliquer en dÃ©tail comment cela fonctionnerait.
+* Gardez la portÃ©e aussi Ã©troite que possible, pour le rendre plus facile Ã  mettre en Å“uvre.
+* Rappelez-vous qu'il s'agit d'un projet dirigÃ© par des bÃ©nÃ©voles, et que les contributions
    sont les bienvenus :)
 
 Commencer!
 ------------
 
-Prêt à contribuer? Voici comment configurer `pub2sdwizard` pour le développement local.
+PrÃªt Ã  contribuer? Voici comment configurer `pub2sdwizard` pour le dÃ©veloppement local.
 
 1. Placez le repo `pub2sd2` sur GitHub.
 2. Cloner votre fourche localement ::
@@ -62,18 +62,18 @@ Prêt à contribuer? Voici comment configurer `pub2sdwizard` pour le développement
     $ git clone git@github.com:votre_nom/pub2sd2.git
 
 3. Installez votre copie locale dans un virtualenv. En supposant 
-que virtualenvwrapper est installé, voici comment configurer votre fork pour le développement local::
+que virtualenvwrapper est installÃ©, voici comment configurer votre fork pour le dÃ©veloppement local::
 
     $ mkvirtualenv pub2sd
     $ cd pub2sd/
     $ python setup.py develop
 
-4. Créer une branche pour le développement local::
-    $ git checkout -b nom-de-votre-amélioration
+4. CrÃ©er une branche pour le dÃ©veloppement local::
+    $ git checkout -b nom-de-votre-amÃ©lioration
 
    Vous pouvez maintenant effectuer vos modifications localement.
 
-5. Lorsque vous avez fini de faire des changements, vérifiez que vos 
+5. Lorsque vous avez fini de faire des changements, vÃ©rifiez que vos 
 changements passent flake8 et les tests, y compris le test d'autres versions de Python avec tox::
 
     $ python setup.py test
@@ -81,24 +81,24 @@ changements passent flake8 et les tests, y compris le test d'autres versions de 
 
    Pour avoir de la tox, il suffit de l'installer dans votre virtualenv.
 
-6. Validez vos changements et déplacez votre branche vers GitHub::
+6. Validez vos changements et dÃ©placez votre branche vers GitHub::
 
     $ git add .
-    $ git commit -m "Votre description détaillée de vos modifications."
-    $ git push origin nom-de-votre-amélioration
+    $ git commit -m "Votre description dÃ©taillÃ©e de vos modifications."
+    $ git push origin nom-de-votre-amÃ©lioration
 
 7. Soumettez une "pull request" sur le site Web de GitHub.
 
 Directives "Pull Request"
 -----------------------
 
-Avant de soumettre une "pull request", vérifiez qu'elle respecte les consignes suivantes:
+Avant de soumettre une "pull request", vÃ©rifiez qu'elle respecte les consignes suivantes:
 
 1. La "pull request" devrait inclure des tests.
-2. Si la 'pull request' ajoute une fonctionnalité, les documents doivent être mis à jour. Mettre
-    votre nouvelle fonctionnalité dans une fonction avec une docstring, et ajoutez le
-    fonctionnalité à la liste dans README.rst.
-3. La 'pull request' devrait fonctionner pour Python 3.4, 3.5 et 3.6. Vérifier
+2. Si la 'pull request' ajoute une fonctionnalitÃ©, les documents doivent Ãªtre mis Ã  jour. Mettre
+    votre nouvelle fonctionnalitÃ© dans une fonction avec une docstring, et ajoutez le
+    fonctionnalitÃ© Ã  la liste dans README.rst.
+3. La 'pull request' devrait fonctionner pour Python 3.4, 3.5 et 3.6. VÃ©rifier
     https://github.com/madskinner/pub2sd/pull_requests
-    et assurez-vous que les tests réussissent pour toutes les versions Python prises en charge.
+    et assurez-vous que les tests rÃ©ussissent pour toutes les versions Python prises en charge.
 
