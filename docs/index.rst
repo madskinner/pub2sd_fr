@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to pub2sd's documentation!
+Bienvenue dans la documentation de pub2sd!
 ========================================
 
 Contents:
@@ -19,7 +19,7 @@ Contents:
    history
 
 
-Indices and tables
+Indices et tableaux
 ==================
 
 * :ref:`genindex`

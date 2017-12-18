@@ -1,103 +1,104 @@
 ============
-Contributing
+Contribuant
 ============
 
-Contributions are welcome, and they are greatly appreciated! Every
-little bit helps, and credit will always be given.
+Les contributions sont les bienvenues, et elles sont grandement appréciées! Chaque
+peu aide, et le crédit sera toujours donné.
 
-You can contribute in many ways:
+Vous pouvez contribuer de plusieurs façons:
 
-Types of Contributions
+Types de contributions
 ----------------------
 
-Report Bugs
-~~~~~~~~~~~
+Signaler les bugs informatiques
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Report bugs at https://github.com/madskinner/pub2sd/issues.
+signaler les bugs informatiques à https://github.com/madskinner/pub2sd/issues.
 
-If you are reporting a bug, please include:
+Si vous signalez un bug, veuillez inclure:
 
-* Any details about your local setup that might be helpful in troubleshooting.
-* Detailed steps to reproduce the bug.
+* Tous les détails concernant votre configuration locale qui pourraient être utiles pour le dépannage.
+* Étapes détaillées pour reproduire le bug.
 
-Fix Bugs
-~~~~~~~~
+Corriger les bugs
+~~~~~~~~~~~~~~~~
 
-Look through the GitHub issues for bugs. Anything tagged with "bug"
-is open to whoever wants to implement it.
+Regardez les problèmes de GitHub pour les bugs. Tout ce qui est étiqueté "bug"
+est ouvert à quiconque veut l'implémenter.
 
-Implement Features
-~~~~~~~~~~~~~~~~~~
+Implémenter les fonctionnalités
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Look through the GitHub issues for features. Anything tagged with "feature"
-is open to whoever wants to implement it.
+Regardez à travers les problèmes de GitHub pour les fonctionnalités. Quoi que ce soit tagué avec "feature"
+est ouvert à quiconque veut l'implémenter.
 
-Write Documentation
+Écrire quelque documentation
 ~~~~~~~~~~~~~~~~~~~
 
-Pub2SDwizard could always use more documentation, whether
-as part of the official Pub2SDwizard docs, in docstrings,
-or even on the web in blog posts, articles, and such.
+Pub2SDwizard pourrait toujours utiliser plus de documentation, que ce soit
+dans les documents officiels de Pub2SDwizard, dans docstrings,
+ou même sur le Web dans les articles de blog, articles, et autres.
 
-Submit Feedback
-~~~~~~~~~~~~~~~
+Soumettre des commentaires
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/madskinner/pub2sd/issues.
+La meilleure façon d'envoyer des commentaires est de déposer un problème à https://github.com/madskinner/pub2sd/issues.
 
-If you are proposing a feature:
+Si vous proposez une fonctionnalité:
 
-* Explain in detail how it would work.
-* Keep the scope as narrow as possible, to make it easier to implement.
-* Remember that this is a volunteer-driven project, and that contributions
-  are welcome :)
+* Expliquer en détail comment cela fonctionnerait.
+* Gardez la portée aussi étroite que possible, pour le rendre plus facile à mettre en œuvre.
+* Rappelez-vous qu'il s'agit d'un projet dirigé par des bénévoles, et que les contributions
+   sont les bienvenus :)
 
-Get Started!
+Commencer!
 ------------
 
-Ready to contribute? Here's how to set up `pub2sdwizard` for local development.
+Prêt à contribuer? Voici comment configurer `pub2sdwizard` pour le développement local.
 
-1. Fork the `pub2sd` repo on GitHub.
-2. Clone your fork locally::
+1. Placez le repo `pub2sd2` sur GitHub.
+2. Cloner votre fourche localement ::
 
-    $ git clone git@github.com:your_name_here/pub2sd.git
+    $ git clone git@github.com:votre_nom/pub2sd2.git
 
-3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
+3. Installez votre copie locale dans un virtualenv. En supposant 
+que virtualenvwrapper est installé, voici comment configurer votre fork pour le développement local::
 
     $ mkvirtualenv pub2sd
     $ cd pub2sd/
     $ python setup.py develop
 
-4. Create a branch for local development::
+4. Créer une branche pour le développement local::
+    $ git checkout -b nom-de-votre-amélioration
 
-    $ git checkout -b name-of-your-bugfix-or-feature
+   Vous pouvez maintenant effectuer vos modifications localement.
 
-   Now you can make your changes locally.
-
-5. When you're done making changes, check that your changes pass flake8 and the tests, including testing other Python versions with tox::
+5. Lorsque vous avez fini de faire des changements, vérifiez que vos 
+changements passent flake8 et les tests, y compris le test d'autres versions de Python avec tox::
 
     $ python setup.py test
     $ tox
 
-   To get tox, just pip install it into your virtualenv.
+   Pour avoir de la tox, il suffit de l'installer dans votre virtualenv.
 
-6. Commit your changes and push your branch to GitHub::
+6. Validez vos changements et déplacez votre branche vers GitHub::
 
     $ git add .
-    $ git commit -m "Your detailed description of your changes."
-    $ git push origin name-of-your-bugfix-or-feature
+    $ git commit -m "Votre description détaillée de vos modifications."
+    $ git push origin nom-de-votre-amélioration
 
-7. Submit a pull request through the GitHub website.
+7. Soumettez une "pull request" sur le site Web de GitHub.
 
-Pull Request Guidelines
+Directives "Pull Request"
 -----------------------
 
-Before you submit a pull request, check that it meets these guidelines:
+Avant de soumettre une "pull request", vérifiez qu'elle respecte les consignes suivantes:
 
-1. The pull request should include tests.
-2. If the pull request adds functionality, the docs should be updated. Put
-   your new functionality into a function with a docstring, and add the
-   feature to the list in README.rst.
-3. The pull request should work for Python 3.4, 3.5 and for 3.6. Check
-   https://github.com/madskinner/pub2sd/pull_requests
-   and make sure that the tests pass for all supported Python versions.
+1. La "pull request" devrait inclure des tests.
+2. Si la 'pull request' ajoute une fonctionnalité, les documents doivent être mis à jour. Mettre
+    votre nouvelle fonctionnalité dans une fonction avec une docstring, et ajoutez le
+    fonctionnalité à la liste dans README.rst.
+3. La 'pull request' devrait fonctionner pour Python 3.4, 3.5 et 3.6. Vérifier
+    https://github.com/madskinner/pub2sd/pull_requests
+    et assurez-vous que les tests réussissent pour toutes les versions Python prises en charge.
 

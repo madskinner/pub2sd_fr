@@ -1,15 +1,15 @@
 =======
-Credits
+Crédits
 =======
 
-Maintainer
+Mainteneur
 ----------
 
 * Mark Skinner <mark_skinner_@sil.org>
 
-Contributors
+Contributeurs
 ------------
-With thanks for their constructive feedback:
+Avec nos remerciements pour leurs commentaires constructifs:
 
    Lou Aisenbury, 
    John Giske & 

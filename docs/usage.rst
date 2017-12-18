@@ -1,512 +1,521 @@
 ﻿========
-Usage
+Utilisation
 ========
 
 
-From commandline::
+De la ligne de commande::
 
     Usage: python3 Pub2SDwizard.py
     
-From desktop (Windows 64bit binary), double-click on the Pub2SDwizard icon.
+À partir du bureau (Windows 64 bits binaire), double-cliquez sur l'icône Pub2SDwizard.
 
 .. image:: images/mainc.png
    :width: 57
    :alt: Pub2SDwizard icon
 
-Which interface language?
+Quelle langue d'interface?
 ------------------------------
-Your first choice is which interface language you wish to work with. 
-The gui interface language can be selected from the drop-down list at the top right of the screen and can be changed at any time.
+Votre premier choix est la langue d'interface avec laquelle vous souhaitez travailler (par défaut, c'est l'anglais). La
+ langue de l'interface gui peut être sélectionnée dans la liste 
+déroulante en haut à droite de l'écran et peut être modifiée à tout 
+moment.
+.. image:: images/gui_lang_fr.jpg
+   :width: 274
+   :alt: liste déroulante des langues d'interface gui
 
-.. image:: images/gui_lang.jpg
-   :width: 299
-   :alt: pull-down list of gui inteface languages
+Suivant Pub2SDwizard commence par poser trois questions:
 
-Next Pub2SDwizard starts by asking three questions:
+Le nom de votre projet?
+------------------------------------
 
-The name of your project?
-------------------------------
+.. image:: images/project_name_fr.jpg
+   :width: 853
+   :alt: demande le nom du projet
 
-.. image:: images/project_name.jpg
-   :width: 766
-   :alt: Project name
+Cela peut être saisi directement ou choisi dans la liste déroulante. Les
+ paramètres du projet peuvent être sauvegardés à tout moment et seront 
+conservés dans un fichier '&lt;project name&gt; .prj' enregistré dans un
+ dossier 'Pub2SD' sous votre dossier de base (p.ex. 'C:\Users\&lt;username&gt;\Pub2SD' pour Windows ou '~/Pub2SD' sur Linux). Ce nom sera également utilisé comme le nom du dossier de niveau supérieur sur la carte SD qui tiendra vos fichiers publiés.
 
-This can either be entered directly or chosen from the drop-down list. 
-The project settings can be saved at any time and will be held in a '<project name>.prj' file stored in a 
-'Pub2SD' folder under your home folder (i.e. 'C:\Users\<username>\Pub2SD'). 
-This project name will also be used as the name of the top level folder on the SD card which will hold your published files.
-
-The type of your project?
+Le type de votre projet?
 -----------------------------
 
-.. image:: images/TypeOfProject.jpg
-   :width: 601
+.. image:: images/TypeOfProject_fr.jpg
+   :width: 606
 
-The type of project can be changed later. If you start with a
-'Advanced' project and later want to convert it to a 'Simple' project,
-any of the tags which are only available in 'Advanced' mode will be
-removed and their data lost.
+Le type de projet peut être modifié ultérieurement. Si
+ vous commencez par un projet «Avancé» et que vous souhaitez ensuite le 
+convertir en un projet «Simple», tout les tags qui ne sont 
+disponibles que dans le mode «Avancé» seront supprimés et leurs donnés
+ seront perdues.
 
-A simple project will only allow you to use tags which can be
-presented as simple strings and restricts you to a single piece of
-artwork and a single comment whose language is not defined.
+Un projet simple vous 
+permettra uniquement d'utiliser des tags qui peuvent être présentés 
+sous forme de chaînes simples et vous restreignent à une seule œuvre et à
+ un seul commentaire dont la langue n'est pas définie.
 
-A number of the 'advanced' tags allow you to have multiple entries
-for each tag distiguished by theit 'language' and 'desciption' fields.
-In addition there are many different types of artwork that can be
-included. Though not all applications may recognise these features.
+Un
+ certain nombre de tags « avancés » vous permettent d'avoir 
+plusieurs entrées pour chaque tag disputé par leurs champs 'langue' et 
+'desciption'. En outre, il existe de nombreux types d'œuvres d'art qui peuvent être 
+inclus. Bien que toutes les applications ne reconnaissent pas ces fonctionnalités.
 
-Once you've chosen your project name and select your project type,
-you can click on the 'Next' button. This will update the 'Current
-project:' and 'Mode:' fields near the top of the window. However you
-may wish to select some
-additional items from the 'Optional' section first.
+Le type de projet peut être modifié ultérieurement. Mais changer votre type de 
+projet de «Avancé» à «Simple» entraînera la perte de toutes les données de tags «avancés». 
+Pour toutes les tags contenant plusieurs entrées, seule la première entrée sera conservée.
 
-Optional extras?
--------------------
+Une fois que 
+vous avez choisi le nom de votre projet et sélectionnez votre type de 
+projet, vous pouvez cliquer sur le bouton « Prochain ». Cela mettra à 
+jour les champs 'Projet en cours:' et 'Mode:' près du haut de la fenêtre. 
+Toutefois, vous voudrez peut-être sélectionner certains éléments supplémentaires 
+dans la section « Optionnel » en premier.
 
-.. image:: images/Optional.jpg
-   :width: 616
+Des extras optionnels?
+----------------------------------
 
-These features can be ignored if you are happy to accept the default
-settings.
+.. image:: images/Optional_fr.jpg
+   :width: 620
 
-*Which template?*
+Ces fonctionnalités peuvent être ignorées si vous êtes heureux d'accepter les paramètres par défaut.
 
-.. image:: images/ChooseTemplate.jpg
-   :width: 609
+*Quel modèle?*
 
-When you first run the program the there won't be any templates
-listed and so you can ignore this choice and receive a default set of
-tags pre-selected for you. Later once you have created one or more
-templates you will be able select the one you wish to attach to this
-project. On new projects this will determine which tags will be shown
-as pre-selected on the 'Choose MP3 tags' tab. However with an existing
-project any new tags specified by the template will be added to the
-list of tags selected for modification and display. This will never
-remove any tags already present in the project.
+.. image:: images/ChooseTemplate_fr.jpg
+   :width: 593
 
-Once you have created some templates you can manually edit the
-'.json' template files, in your '\\Documents\\Pub2SD' folder, to add
-'default values' to some or all of the tags listed by their four
-character tag codes. Then whenever an MP3 file is loaded into a project
-which has that template attached these default values will be
-pre-loaded into Pub2SDwizard for any tags which are blank. No existing
-tag data will be overwritten by this mechanism. 
+Lorsque
+ vous exécutez pour la première fois le programme, il n'y aura pas de 
+modèles listés et vous pourrez donc ignorer ce choix et recevoir un jeu 
+de tags par défaut présélectionné pour vous. Plus
+ tard, une fois que vous avez créé un ou plusieurs modèles, vous pourrez
+ sélectionner celui que vous souhaitez joindre à ce projet. Sur
+ les nouveaux projets, cela déterminera quels tags seront 
+affichés comme pré-sélectionnés dans l'onglet "Choisir les tags 
+MP3". Cependant,
+ avec un projet existant, tout les nouveaux tags spécifiés par
+ le modèle seront ajoutés à la liste des tags sélectionnés pour la 
+modification et l'affichage. Cela ne supprimera jamais les tags déjà présentes dans le projet.</p>
 
-*What prefix?*
+Une fois que vous avez créé certains modèles, vous pouvez modifier 
+manuellement les fichiers de modèle '.json', dans votre dossier '\ 
+Documents \ Pub2SD', pour ajouter des "valeurs par défaut" à certaines 
+ou à touts les tags indiqués par leurs codes de marque de quatre
+ caractères. Ensuite,
+ chaque fois qu'un fichier MP3 est chargé dans un projet auquel ce 
+modèle est attaché, ces valeurs par défaut seront préchargés dans 
+Pub2SDwizard pour tout les tags vierges. Aucune donnée de tags existante ne sera écrasé par ce mécanisme.
+
+*Quel prefix?*
 
 .. image:: images/InitialDigit.jpg
-   :width: 608
+   :width: 611
 
-Pub2SDwizard will generate unique names for every collection and MP3
-file which will be combined with their filename/Title to ensure they
-can be referenced unambiguosly. You may specify a prefix which will be
-added to the start of all the
-unique names generated for files and collections. This prefix will not
-be checked by Pub2SDwizard so ensure that it's characters are
-acceptable in filenames for the intended device(s) and keep it short.
+Pub2SDwizard générera des
+ noms uniques pour chaque collection et fichier MP3 qui sera combiné 
+avec leur nom de fichier / titre pour s'assurer qu'ils peuvent être 
+référencés sans ambiguïté. Vous pouvez spécifier un préfixe qui sera ajouté au début de tous les noms uniques générés pour les fichiers et les collections. Ce
+ préfixe ne sera pas vérifié par Pub2SDwizard, assurez-vous que ses 
+caractères sont acceptables dans les noms de fichiers pour les 
+périphériques prévus et gardez le court.
 
-Choose MP3 tags
---------------------
+Choisissiez des tags MP3
+-------------------------------------
 
 .. image:: images/ChooseMP3tags.jpg
-   :width: 596
+   :width: 598
 
-On new projects, the tags specified by your template or in it's
-abscence the most commonly used tags are selected by default. In
-existing projects the tags already chosen along with any new tags
-specified in your template are selected by default. You can add to
-or remove tags from the selection with a 'Ctrl+click' on the tag
-of interest. You can restore a default selection ofmost commonly used
-tags by clicking
-on the 'Default tags' button.
+Sur les nouveaux
+ projets, les tags spécifiés par votre modèle ou dans son 
+absence, les tags les plus couramment utilisés sont sélectionnés
+ par défaut. Dans les projets existants, les tags déjà choisies avec tout les nouveaux tags spécifiés 
+dans votre modèle sont sélectionnés par défaut. Vous pouvez ajouter ou supprimer des tags de la sélection avec un 'Ctrl + clic' sur le tag d'intérêt. Vous
+ pouvez restaurer une sélection par défaut des tags les plus 
+couramment utilisés en cliquant sur le bouton 'Tags par défaut'.
 
-Note that only the selected tags will be modified or present in the
-final MP3 files. (N.B. Tags with blank values will not be
-applied.)
+Notez que seules les tags sélectionnés
+seront modifiés ou présentés dans les fichiers MP3 finaux.
+(N.B. Les tags avec des valeurs vierges ne seront pas appliqués.)
 
-If you are loading an existing project you can add and remove tags
-at this stage. The contents of any tags which are removed will be
-discarded. Any new tags will be blank.
+Si vous chargez un projet existant, vous pouvez ajouter et supprimer 
+des tags à ce stade. Le contenu de toutes les tags supprimées sera jeté. 
+Toutes les nouveaux tags seront vierges.
 
-You can create a new template holding the tags currently selected by
-clicking on the 'Save template' button and supplying a descriptive name
-when it is requested.
+Vous pouvez 
+créer un nouveau modèle contenant les tags actuellement sélectionnés
+ en cliquant sur le bouton "Enregistrer le modèle" et en fournissant un 
+nom descriptif lorsqu'il est demandé.
 
-Click on the 'Next' button to proceed.
+Cliquez sur le bouton 'Prochain' pour continuer.
 
-Special characters</h2>
+Caractères spéciaux
+------------------------------
 
-.. image:: images/SpecialCharacters.jpg
-   :width: 868
+.. image:: images/SpecialCharacters_fr.jpg
+   :width: 909
 
-By default, tags which require 'Latin1' and the filenames generated
-are aggressively normalised to remove any special characters to
-guarantee compatibility, any punctuation characters or spaces will be
-replaced with underscores. You can override this by specifying any
-preferences you have. Your preferences will be saved in the project,
-but only have effect if the 'Preferred:...' option is chosen. You can
-also save your preferences as a separate '.csv' file as examples for
-other projects. A 'Latin1' example (which would allow some acented
-characters etc... and still be compatible with most devices) is
-always availble from the dropdown list. Other examples will be added to
-this list as you save them.
+Par défaut, les tags qui requièrent 'Latin1' et les noms de fichiers générés sont 
+normalisés de manière agressive pour supprimer tous les caractères 
+spéciaux pour garantir la compatibilité. Vous pouvez l'annuler en spécifiant les 
+préférences que vous avez. Vos préférences seront sauvegardées dans le projet, 
+mais elles auront uniquement effet si l'option «Préféré: ...» est choisie. Vous pouvez 
+également enregistrer vos préférences en tant que fichier texte séparé comme 
+exemples pour d'autres projets. Un 
+exemple de 'Latin1' (qui permettrait certains caractères acentiels etc 
+... et toujours compatible avec la plupart des périphériques) est 
+toujours disponible dans la liste déroulante. D'autres exemples seront 
+ajoutés à cette liste car vous les enregistrez.
 
-Clicking on the blank line in the drop down list will clear the list
-of preferences. Clicking on 'Latin1' or any other examples you've saved
-will append them to your list of preferences. 
+En cliquant sur la ligne vierge dans la liste déroulante, la liste des préférences 
+sera effacée. En cliquant sur 'Latin1' ou tout autre exemple que vous avez 
+enregistré, vous les ajouterez à votre liste de préférences.
 
-To get the basic 'Latin1' set, select 'Preferred' on the 'Special
-characters' tab and select 'Latin1' from the pull-down list on the
-right. You should now see a list of character pairs, in this case
-telling Pub2SDwizard to retain them since both members of each pair are
-identical. If you wanted to replace say '~' with '-' rather than
-underscore you'd add ', ~/-' to the end of the list. You could even
-override what happens to spaces or commas by using 0xNNNN notation for
-their Unicode values. So 0x0020/0x0020 would retain the spaces, while
-0x0027/0xA78C would replace the apostrophe with the lower case
-saltillo. (Though I don't know how many phones would actually display
-it!).
+Pour
+ obtenir l'ensemble de base 'Latin1', sélectionnez 'Préféré' dans 
+l'onglet "Caractères spéciaux" et sélectionnez 'Latin1' dans la liste 
+déroulante à droite. Vous
+ devriez maintenant voir une liste de paires de caractères, dans ce cas,
+ dire à Pub2SDwizard de les conserver puisque les deux membres de chaque
+ paire sont identiques. Si vous vouliez remplacer say '~' par '-' plutôt que 
+le trait de soulignement, vous ajouteriez ', ~/-' à la fin de la liste. Vous
+ pouvez même remplacer ce qui arrive aux espaces ou aux virgules en 
+utilisant la notation 0xNNNN pour leurs valeurs Unicode. Ainsi, 
+0x0020 / 0x0020 conserverait les espaces, tandis que 0x0027 / 0xA78C 
+remplacerait l'apostrophe par le minuscule casier. 
+(Bien que je ne sachiez pas combien de téléphones l'afficheraient effectivement!).
 
-The preferred list is strictly a set of pairs of strings rather than
-characters so 'Ŋ/Ng', 'ng/ŋ'
-or even 'Tom/Fred' would work. The characters in the strings on either
-side of the '/' can either be entered directly or as their Unicode
-values using the 0xNNNN notation.
+La liste préférée est strictement un ensemble de paires de chaînes plutôt 
+que de caractères, donc '&#330;/Ng', 'ng/&#331;' ou même 'Tom / Fred' 
+fonctionnerait. Les
+ caractères dans les chaînes de chaque côté du '/' peuvent être saisis 
+directement ou comme valeurs Unicode en utilisant la notation 0xNNNN.
 
-Edit...
--------
+Éditer...
+-------------
 
-.. image:: images/Edit_.jpg
+.. image:: images/Edit_fr.jpg
    :width: 1012
 
-The project will be shown as the top level collection, this can't be
-moved or deleted.
+Le projet sera affiché comme la collection de niveau supérieur, cela ne peut pas être déplacé ou supprimé.
 
-*Import hierarchy*
+*Importer la hiérarchie*
 
-.. image:: images/ImportHierarchy.jpg
-   :width: 551
+.. image:: images/ImportHierarchy_fr.jpg
+   :width: 599
 
-In 'Simple' mode only the 'Import a Folder and it's Contents'
-button is
-enabled. This will select the folder you specify and create a
-collection of the same name. Then it will import all MP3 files from
-that folder
-into the collection, creating sub-collections for any sub-folders and
-importing their files to them. Only the MP3 files and the sub-folders
-will be imported, any other files will be ignored.
+Dans le mode «Simple», seul le bouton «Importer un dossier et son contenu» est activé. Cela sélectionnera le dossier que vous spécifiez et créez une collection du même nom.</span> <span>Ensuite,
+ il importera tous les fichiers MP3 de ce dossier dans la collection, en
+ créant des sous-collections pour tous les sous-dossiers et en important
+ leurs fichiers. Seuls les fichiers MP3 et les sous-dossiers seront importés, tous les autres fichiers seront ignorés.</p>
+<p>Bien
+ que votre projet reflète normalement la structure du dossier contenant 
+vos fichiers MP3 source, le mode 'Avancé' vous permet d'ajouter des 
+collections et des fichiers arbitrairement. Notez 
+si vous souhaitez ajouter un fichier, vous devez d'abord sélectionner la
+ ligne contenant la collection à laquelle vous souhaitez l'ajouter.</p>
+<p>Le
+ logiciel tentera d'énumérer les collections et les fichiers dans un 
+ordre logique, MAIS, vous devez toujours vérifier que l'ordre dans 
+lequel les fichiers sont affichés est l'ordre dans lequel vous souhaitez
+ qu'ils soient joués, en l'ajustant au besoin. Notez que le titre de 
+toutes les collections sera basé sur le nom du dossier dérivé, plutôt 
+que sur l'étiquette de titre dans un fichier MP3. Ainsi,
+ tous les compromis faits dans la représentation de l'orthographe pour 
+le système d'exploitation d'origine seront préservés. Par
+ conséquent, vous devez toujours vérifier que les titres des collections
+ sont comme vous le souhaitez pour apparaître (par exemple, Saa+ï doit
+ être remplacé soit par Saang ou Saaŋ). 
 
-While your project will normally reflect the folder structure
-holding your source MP3 files in, 'Advanced' mode allows you to add
-collections and files arbitarily. Note if
-you wish to add a file you must first select the row holding the
-collection you wish to add it to.
+.. image:: images/showFilesPretrim_fr.jpg
+   :width: 740
 
-The software will try to list the collections and files in a logical
-order, BUT you must always verify that the order in which the files are
-displayed is
-the order you wish them to be played in, adjusting it as necessary.
-Note that the title for any collections will be based on the folder
-name it derived from rather than the title tag in an MP3 file. So
-any compromises made in representing the orthography for the original
-operating system will be preserved. Consequently you must always verify
-that the titles of the collections are as you wish them to appear(e.g
-Saa+ï needs replacing with either Saang or Saaŋ). 
+Une fois que vous avez 
+importé les fichiers et disposé dans l'ordre que vous souhaitez, vous 
+êtes recommandé de sauvegarder le projet. Lors du redémarrage du 
+programme et de la sélection du projet, tous vos paramètres et hiérarchie 
+existants seront restaurés. Des fichiers supplémentaires peuvent être ajoutés au projet.
 
-.. image:: images/showFilesPretrim.jpg
-   :width: 728
+Couper du titre
 
-Once you have imported the files and arranged them in the order you
-wish, you are recommended to save the project. On restarting the
-program
-and selecting the project all your existing settings and hierarchy will
-be restored. Additional files may be added to the project.
+Sur la base des 
+fichiers de commande affichés, Pub2SDwizard crée et conserve des noms 
+uniques pour chaque fichier et les utilise lorsque les fichiers sont 
+publiés avec le titre MP3 (ou le nom de fichier original) ajouté. Les
+ dossiers individuels ont souvent eu des caractères avant ou arrière 
+ajoutés à leurs noms de fichiers (et / ou leurs titres MP3) afin de 
+déterminer l'ordre dans lequel ils doivent être lus. Ceux-ci peuvent ne 
+plus être requis et peuvent donc être supprimés à l'aide du bouton 'Couper du titre'. Cela
+ montrera également, dans la colonne la plus à gauche, le dossier final 
+et les noms de fichier qui seront publiés sur la carte SD.
 
-Trim from Title
+.. image:: images/TrimFromTitle_fr.jpg
+   :width: 273
 
-Based on the order files are displayed Pub2SDwizard will create and
-maintain unique
-names for each file and use these when the files are published with the
-MP3 title (or original filename) appended. Individual files have often
-had leading or trailing characters added to
-their
-filenames (and/or their MP3 titles) to help determine the sequence in
-which they should be played. These may no longer be required and so can
-be removed using the 'Trim from Title' button. This will also show, in
-the left most column, the final folder and file names which will be
-published to the SD card.
+Cela réduira les caractères de chaque élément en dessous de la collection actuellement 
+sélectionnée.Il faut prendre soin, si aucune collection n'est sélectionnée, l'action sera appliquée à TOUS. 
+En cas d'erreurs, il est souvent plus rapide d'abandonner un projet et de 
+recommencer (chargement de votre copie sauvegardée du projet) plutôt que
+ d'essayer de corriger chaque titre individuellement.
 
-.. image:: images/TrimFromTitle.jpg
-   :width: 274
+Une
+ fois que vous avez importé tous les fichiers et vérifié l'ordre dans 
+lequel ils sont affichés et trié les caractères indésirables, cliquez 
+sur le bouton 'Prochain'.
 
-This will trim characters from every item below the currently
-selected
-collection. Care must be taken, if no collection is selected the action
-will be applied to ALL. In the case of errors, it is often quicker
-to abandon a project and start over (loading your saved copy of the
-project), rather than trying to correct each
-title individually. 
+*Éditer la hiérarchie*
 
-Once you've imported all the files and verified the order in which
-they are displayed and trimed any unwanted charaters, click on the
-'Next' button.
+.. image:: images/EditHierarchy_fr.jpg
+   :width: 414
 
-*Edit Hierarchy*
+Le mode 'Simple' vous permettra uniquement de supprimer des fichiers 
+ou des collections indésirables. Le mode 'Avancé' vous permet également 
+de restructurer votre hiérarchie.
 
-.. image:: images/EditHierarchy.jpg
-   :width: 331
+Sélectionnez les lignes nécessaires pour supprimer des éléments ou modifier 
+leur position dans la hiérarchie. Lorsque
+ vous importez un dossier, seuls les fichiers MP3 seront répertoriés, 
+mais tous les sous-dossiers seront affichés en tant que collections 
+qu'ils contiennent des fichiers MP3 ou non.
 
-'Simple' mode will only allow you to delete unwanted files or
-collections. 'Advanced' mode allows you to restructure your hierarchy
-as well.
+Une
+ fois que toutes les collections parasites ont été supprimées et que la 
+hiérarchie est réglée comme vous le souhaitez, cliquez sur le bouton 
+'Prochain'.
 
-Select rows as necessary to either delete items or change their
-position in the hierarchy. When you import a folder, only the MP3 files
-will be listed but all sub-folders will be shown as collections whether
-they contain MP3 files or not.
-
-Once any spurious collections have been removed and the hierarchy
-adjusted as you wish click on the 'Next' button. 
-
-*Edit MP3 tags*
+*Éditer les tags MP3*
 
 .. image:: images/EditTag.jpg
-   :width: 604
+   :width: 603
 
-Internally all text is held as unicode strings and will
-be written to the MP3 tags in the final files in 'utf-8' encoding. Tags
-which require 'Latin1' encoding will be automatically forced to a
-7-ASCII sub-set of
-'utf-8', or your preferred mapping. So while titles (TIT2) will be held
-and written as unicode
-characters, when Pub2SDwizard creates the filename which will be
-written to the SD cards all characters will be reduced to their base
-forms, diacritics removed, ligatures split and an approximate
-transliteration of any cyrillic, greek or non-roman characters will be
-attempted. In addition any punctuation or spaces will become underscore
-charaters, or your preferred characters. 
+En interne, tout le texte se 
+déroule sous la forme de chaînes unicode et sera écrit sur les tags MP3 
+dans les fichiers finaux dans l'encodage 'utf-8'. Les tags qui 
+nécessitent un codage 'Latin1' seront automatiquement imposées à un 
+sous-ensemble '7-ASCII' de 'utf-8', ou vos caractères préférés. Ainsi, alors que les titres (TIT2) 
+seront tenus et écrits en caractères unicode, lorsque Pub2SDwizard crée
+ le nom de fichier qui sera écrit sur les cartes SD, tous les caractères
+ seront réduits à leurs formes de base, les diacritiques supprimés, les 
+ligatures divisées et une translittération approximative de tout les 
+caractères cyrillique, grecs ou non-romains seront tentés. De plus, 
+toute ponctuation ou espace deviendra des chars de soulignement, ou vos caractères préférés.
 
-( e.g. 'à Â Þ Æ ç Ŋ ŋ ñ ƴ' would become 'a_A_Th_AE_c_NG_ng_n_y')
+(Par exemple  'à Â Þ Æ ç Ŋ ŋ ñ ƴ'  deviendrait 'a_A_Th_AE_c_NG_ng_n_y')
 
-In 'Simple' mode all tags will be represented as single strings of
-characters and their encoding and any other parameters will be hidden.
-Indeed only tags which can be treated in this way are available in
-'Simple' mode.
+Dans le mode 'Simple', tout les tags seront représentées sous la forme 
+de un seul chaîne de caractères et leur codage et tout autre paramètre 
+sera caché. En effet, seuls les tags pouvant être traités de cette 
+manière sont disponibles en mode 'Simple'.
 
-In 'Advanced' mode the tags are shown as lists of parameters. The
-'encoding' for text read from an MP3 tag will be shown as a
-single digit. Whatever the original encoding, the text will always be
-written in 'utf-8' represented by '3'. While text strings are typically
-held as a list of strings rather than a single string, what is
-displayed for any given tag depends on the users MP3 reader
-application. In general only the first string in the list is likely to
-be displayed.
+En mode 'Avancé', les 
+tags sont affichés sous forme de listes de paramètres. Le 'encodage' 
+pour le texte lu à partir d'un tag MP3 sera affiché en un seul chiffre.
+ Quel que soit l'encodage original, le texte sera toujours écrit dans 
+'utf-8' représenté par '3'. Alors que les chaînes de texte sont 
+généralement retenues comme une liste de chaînes plutôt que d'une seule 
+chaîne, ce qui est affiché pour un tag donné dépend de l'application de 
+lecteur MP3 utilisateur. En général, seule la première chaîne de la 
+liste est susceptible d'être affichée.
 
-First select the row you wish to edit. Only MP3 files can hold tags
-so any changes you apply to a collection will affect all MP3 files
-below
-it. Now select a tag from the drop-down list.
+Sélectionnez d'abord la 
+ligne que vous souhaitez modifier. Seuls les fichiers MP3 peuvent 
+contenir des tags afin que les modifications que vous appliquez à une 
+collection affecteront tous les fichiers MP3 au-dessous. Sélectionnez 
+maintenant un tag dans la liste déroulante.
 
-.. image:: images/SelectTag.jpg
-   :width: 605
+.. image:: images/SelectTag_fr.jpg
+   :width: 601
 
-Either the current value of that tag or it's default value should be
-shown automatically in the entry box. If it doesn't appear then click
-on the 'Get' button. Or you can click on the 'Get default' button
-to get an empty template. Once you've modified it, click on the 'Set'
-button
-to apply the tag. If you've selected a collection this will overwrite
-that tag for all MP3 files below it. 
+La valeur actuelle de cet tag ou sa valeur par défaut doit être affichée 
+automatiquement dans la zone de saisie. Si cela ne s'affiche pas, cliquez sur le 
+bouton 'Obtenir'. Ou vous pouvez cliquer sur le bouton 'Obtenir par défaut' 
+pour obtenir un modèle vide. Une fois que vous l'avez modifié, cliquez 
+sur le bouton 'Appliquer' pour appliquer le tag. Si vous avez sélectionné 
+une collection, cela écrasera cet tag pour 
+tous les fichiers MP3 ci-dessous.
 
-In 'Advanced' mode some tags allow you to have multiple frames
-within a tag.
-(e.g.
-you may wish to add comments in French and English to the COMM tag, or
-front and back covers to the APIC tag.) Which fields within the tag
-frame (a set of parameters for that tag) are used to identify discrete
-frames is described in the label
-below the entry box.
-Use the 'Get default' button to get an empty template. When you click
-on the 'Set' button if the new frame is unique within the tag, it will
-be appended to the tag. Otherwise it will replace one of the existing
-frames. The multiple
-frames will be displayed as a list separated by '|' characters. If you
-edit the list of frames directly clicking on the 'Set' button will
-overwrite all the existing frames in the tag.
+Dans le mode 'Avancé', certaines tags vous permettent d'avoir plusieurs images dans une tag. 
+(Par exemple, vous voudrez peut-être ajouter des commentaires en français et en anglais 
+à le tag COMM ou aux couvertures avant et arrière à le tag APIC). 
+Quels champs dans la cadre du tag (un ensemble 
+de paramètres pour cet tag) sont utilisés pour identifier les cadres discrètes est 
+décrit dans le tag ci-dessous la zone de saisie. Utilisez le bouton 'Obtenir par défaut' 
+pour obtenir un modèle vide. Lorsque vous cliquez sur le bouton 'Appliquer' si 
+le nouveau cadre est unique dans le tag, il sera ajouté au tag. Sinon, il remplacera 
+l'une des images existantes. Les multiples images seront affichées sous la forme d'une 
+liste séparée par le '|' carater. Si vous éditez la liste des images directement en cliquant sur le bouton 
+'Appliquer', écraseront toutes les images existantes dans le tag.
 
-When the users MP3 reader application displays the contents of the
-(TCOP) Copyright tag it will always be preceeded by the '©'
-copyright symbol. This is fixed in the ID3 standards and can not be
-changed. Should you prefer to use the Sound recording copyright symbol
 '℗'
-you will have to add that to the start of the copyright string. Though
-this will result in displaying both symbols preceeding the rest of the
-string ('©℗').
-Alternatively the (COMM) Comment tag could be used, but be aware the
-users MP3 reader application may not display the Comment tag.
 
-Select Cover Artwork
+Lorsque 
+l'application utilisateur lecteur MP3 affiche le contenu de le tag 
+Copyright (TCOP), elle sera toujours précédée du symbole de copyright 
+'©'. Ceci est spécifié dans les normes ID3 et ne peut pas être modifié. Si
+ vous préférez utiliser le symbole de copyright de l'enregistrement 
+sonore '℗', vous devrez l'ajouter au début de la chaîne de copyright. 
+Bien que cela entraîne l'affichage des deux symboles précédant le reste de la chaîne 
+('© ℗'). Alternativement,
+ le tag Commentaire (COMM) pourrait être utilisée, mais soyez 
+conscient que l'application des lecteurs MP3 utilisateurs peut ne pas 
+afficher le tag Commentaire.
 
-In 'Simple' mode the (APIC) Cover tag can
-only be modified via the 'Select Cover Artwork' button.
+Sélectionnez l'art de couverture
 
-.. image:: images/SelectArtwork.jpg
-   :width: 218
+Dans le mode 'Simple', le tag de couverture (APIC) ne peut être
+modifiée que via le bouton 'Sélectionner une œuvre de couverture'.
 
-The (APIC) Cover tag contains any images embedded inthe MP3 file. To
-save
-screen space any embedded image data is replaced with the place holder
-b'{}', where {} is the size of the embedded graphic in Kilobytes. Since
-the image data will exceed 128bytes even for small png
-files it is easier to add artwork using the 'Select Cover Artwork'
-button.
-You may specify the nature of the artwork in the drop-down list below
-it. 
+.. image:: images/SelectArtwork_fr.jpg
+   :width: 330
 
-In 'Simple' mode only only the 'COVER_FRONT' picture type is allowed
-and any description will be ignored.
+Le tag de couverture (APIC) contient toutes les images incorporées dans le fichier MP3. 
+Pour sauvegarder l'espace de l'écran, toute donnée d'image intégrée est remplacée par 
+le support de place  b'{}', où {} est la taille du graphique intégré dans kilo-octets. 
+Étant donné que les données d'image dépassent 128 octets, même pour les 
+petits fichiers png, il est plus facile d'ajouter des illustrations à 
+l'aide du bouton «Sélectionner une œuvre de couverture». Vous pouvez spécifier 
+la nature de l'illustration dans la liste déroulante ci-dessous.
 
-Once you've added a image file it's source location will be shown as
-a string rather than a place holder.
+Dans le mode 'Simple', seul le type d'image 'COVER_FRONT' est autorisé et toute description sera ignorée.
 
-In 'Advanced' mode multiple images can be attached each with their
-own parameters shown as a '|' separated list. You
-may add a brief description below. This description is used to
-distiguish multiple sets of parameters added to the APIC tag. But only
-one file icon can be added to an APIC tag, with either the 'FILE ICON'
-or the 'OTHER FILE ICON' picture type .
+Une fois que vous avez ajouté un fichier image, l'emplacement source sera 
+affiché en tant que chaîne plutôt qu'un détenteur de place.
 
-*Special behaviors*
+Dans le mode 'Avancé', plusieurs images peuvent être attachées chacune avec 
+leurs propres paramètres affichés comme '|' liste séparée. Vous pouvez ajouter 
+une brève description ci-dessous. Cette description sert à distinguer plusieurs 
+ensembles de paramètres ajoutés à le tag APIC. Mais une seule icône de fichier 
+peut être ajoutée à un tag APIC avec le type d'image 'FILE ICON' ou 'OTHER FILE ICON'.
 
-In general attempting to set a tag on a collection will simply apply
-that tag to all MP3 files below it. However some tags have 'special'
-behaviors when a collection is selected:
+*Comportements spéciaux*
 
-**TRCK:** This may be simply a
-track number '4' or a track within a set
-'4/20'. Specifying a track number of zero will result in all tracks
-below the collection to be numbered sequencially from '1'. Specifying
-an actual track number will result in them all having the same track
-number. Similarly if the '0/0' track of set format is used, all files
-below that collection will be counted and listed as 'track/total
-number of files' . Again if a value other than zero for the 'of set'
-portion is entered (e.g '0/100') the same 'of set' value will be
-applied to all files below that collection.
+En
+ général, essayer de définir un tag sur une collection appliquera
+ simplement cet tag à tous les fichiers MP3 au-dessous. 
+Cependant, certaines tags ont des comportements «spéciaux» lorsqu'une collection est sélectionnée:
 
-**TSOA, TSOC, TSOP, TSO2:**
-These tags are sometimes used to specify
-sort
-orders and may overide the order files are played in. Setting these
-tags on a collection will result in all files
-below it having their tags set to the unique name Pub2SDwizard
-generated for them.
+**TRCK:** Ce peut être simplement un numéro de piste '4' ou une piste dans un ensemble '4/20'. La
+ spécification d'un numéro de piste de zéro entraînera que toutes les 
+pistes au-dessous de la collection soient numérotées séquentiellement à 
+partir de '1'. La spécification d'un numéro de piste réel entraînera tous ceux qui ont le même numéro de piste. 
+De même, si la piste "0/0" du format défini est utilisée, tous les 
+fichiers situés sous cette collection seront comptés et répertoriés 
+comme «suivi / nombre total de fichiers». Encore une fois, si une valeur autre que zéro pour la partie 'de set' 
+est entrée (par ex. '0/100'), la même valeur 'du set' sera appliquée à 
+tous les fichiers situés sous cette collection.
 
-Once you are satified with the contents of the tags click on the
-'Next'
-button. This will take you to the 'Feature_phone_options' tab.
+**TSOA, TSOC, TSOP, TSO2:** 
+ces tags sont parfois utilisées pour spécifier les
+ ordres de tri et peut prévaloir sur la séquence dans laquelle les fichiers seront lus. La
+ définition de ces tags sur une collection entraînera tous les 
+fichiers ci-dessous, les tags étant définies sur le nom unique 
+que Pub2SDwizard généré pour chaque fichier.
 
-Feature-phone options
---------------------------
+Une fois que vous êtes satisfait du contenu des tags, cliquez sur le bouton 'Prochain'. 
+Cela vous amènera à l'onglet 'Options de téléphones fonctionnels.
 
- .. image:: images/FeaturePhone.jpg
-  :width: 614
+Options de téléphones fonctionnels
+-----------------------------------------------------
 
-The 'playlists' generated by Pub2SDwizard can be copied either to
-the top level of the SD card or under folder names that you
-specify.
+ .. image:: images/FeaturePhone_fr.jpg
+  :width: 598
 
-Note that the 'playlists' can be created in either 'Legacy' format
-('.M3U' files using pre-Unicode fonts) or 'UTF-8' format ('.M3U8' files
-using Unicode fonts). While '.M3U8' would be the standard for modern
-phones many older apps and phones may only support '.M3U'. If you need
-to support both then choose 'Both' which will generate the PlayLists in
-both formats, with only a small overhead file space used.
+Les 'Playlists' générées par Pub2SDwizard peuvent être copiées soit au 
+niveau supérieur de la carte SD, soit sous les noms de dossier que vous 
+avez spécifiés.
 
-Now we can click on the button 'Prepare Files'. This creates a
-temporary folder and makes working copies of all your MP3 files and
-applies
-the changes to their tags. This can take some time but you should see a
-progress bar and status line at the bottom of the window showing how
-far it's got.
+Notez que les 
+'Playlists' (« listes de lecture ») peuvent être créées dans le format «Legacy» 
+(fichiers «.M3U» à l'aide de polices pré-Unicode) ou « UTF-8 » (fichiers 
+« .M3U8 » à l'aide de polices Unicode). Bien que 
+« .M3U8 » soit la norme pour les téléphones modernes, de nombreuses 
+applications et téléphones plus anciens ne supportent que « .M3U ». Si
+ vous devez prendre en charge les deux, choisissez "Les deux", ce qui 
+générera les 'PlayLists' dans les deux formats, avec seulement un petit 
+espace aérien utilisé.
 
-Output to...
---------------
+Maintenant, nous pouvons cliquer sur le bouton 'Préparer les fichiers'. Cela
+ crée un dossier temporaire et permet de réaliser des copies de travail 
+de tous vos fichiers MP3 et applique les modifications apportées à leurs
+ tags. Cela peut prendre du temps, mais vous 
+devriez voir une barre de progression et une ligne d'état en bas de la 
+fenêtre montrant à quel point elle est arrivée.
 
-Finally the 'Output to...' tab will appear.
+Sortie à ...
+-----------------
 
-.. image:: images/PublishTo.jpg
-   :width: 602
+Enfin, la 'Sortie à ...' onglet apparaît.
 
-You can either 'Publish to SD/USB' to publish to an
-SDcard/USB flash drive or 'Publish to
-~\\Pub2SD\\<project>_SD' to publish to the default folder
-on your hard drive. This folder will be created for you if it doesn't
-already exist, however if it does, any previous data in that folder
-will be erased. 
+.. image:: images/PublishTo_fr.jpg
+   :width: 640
 
-**N.B.** Only the first 8 removable drives found will be
-listed here. Make sure that any SD cards or USB drives you wish to
-output to are inserted, have sufficent free space and no folder names
-conflicting with your project name. For best performance ensure that
-they are connected to a USB3 port, via a USB3 hub if required. If you
-have multiple USB-SD card readers connected, use a mixture of different
-brands to avoid confusing the software. Be aware that Windows10 may not
-recognise the driver for a laptop's built-in SD card reader.
+Vous pouvez soit
+ "Publier à SD/USB" pour publier sur un lecteur flash SD ou USB, 
+ou 'Publier à '~\Pub2SD\`<project>`_SD' pour 
+publier sur le dossier par défaut sur votre disque dur. Ce dossier 
+sera créé pour vous s'il n'existe pas déjà, mais si cela se 
+produit, toutes les données précédentes dans ce dossier seront effacées.
 
-Click on the 'Refresh' button to make sure the list of removeable
-drives is upto date. Then click on the checkbox of each of the SD/USB
-drives you wish to publish to. 
+**N.B.** Seuls les 8 premiers lecteurs amovibles trouvés seront répertoriés ici. Assurez-vous
+ que toutes les cartes SD ou les lecteurs USB que vous souhaitez 
+afficher sont insérées, disposent d'un espace libre suffisant et aucun 
+nom de dossier n'est en conflit avec le nom de votre projet. Pour une meilleure 
+performance, assurez-vous qu'ils sont connectés à un port USB3 via un concentrateur USB3 si nécessaire. Si
+ vous avez plusieurs lecteurs de carte USB-SD connectés, utilisez un 
+mélange de différentes marques pour éviter de confondre le logiciel. 
+Sachez que Windows10 peut ne pas reconnaître le pilote du lecteur de carte 
+SD intégré d'un ordinateur portable.
 
-.. image:: images/AvailableSDUSB.jpg
-   :width: 595
+Cliquez sur le bouton 'Actualiser' pour vous assurer que la liste des lecteurs 
+amovibles est à jour. Ensuite, cliquez sur la case à cocher de chacune des unités SD / USB que vous souhaitez publier.
 
-After verifying that only the drives you wish to publish to are
-selected, click on the "Output to" button.
+.. image:: images/AvailableSDUSB_fr.jpg
+   :width: 607
 
-.. image:: images/OutputToButton.jpg
-   :width: 100
+Après avoir vérifié que seuls les lecteurs que vous souhaitez publier sont sélectionnés, cliquez sur le bouton.
 
-This will build and display the list of drives for publishing
-and confirm that they are all still connected and have suffcient free
-space.
+.. image:: images/OutputToButton_fr.jpg
+   :width: 77
 
-.. image:: images/PublishToButton.jpg
-   :width: 148
+Cela va générer et afficher la liste des lecteurs pour la publication et 
+confirmer qu'ils sont tous encore connectés et disposent d'espace libre 
+suffisant.
 
-Finally click on the button above. The progress bar will keep stepping across while the software
-is writing to the drives. The number of drives currently being written
-to is shown below that, with a completed message once writing to all
-drives has finished.
+.. image:: images/PublishToButton_fr.jpg
+   :width: 142
+
+Enfin, cliquez sur le bouton en haut. La barre de progression continuera à traverser pendant que le logiciel écrira sur les lecteurs. Le
+ nombre de lecteurs actuellement en cours d'écriture est affiché 
+ci-dessous, avec un message rempli une fois que l'écriture de tous les 
+lecteurs a terminé.
 
 .. image:: images/PublishToHdButton.jpg
-   :width: 280
+   :width: 278
 
-If you prefer you can publish to your hard
-drive by clicking on the above "Publish to HD" button and 
-then later copy from the
-'~\Pub2SD\<project>_SD' folder to another location as
-required.
+Si vous 
+préférez, vous pouvez publier sur votre disque dur en cliquant sur le 
+bouton en haut, puis copier ensuite du dossier « ~ \ Pub2SD \ 
+`<project`> _SD » à un autre emplacement, au besoin.<
 
-When you click on one of the 'Publish...' buttons, all the new files
-will be created along with all necessary folders, then all the data
-copied to them from the working files and
-finally the new files will all be closed. This ensures that they all
-have the same 'creation' and 'last modified' dates.
+Lorsque vous 
+cliquez sur l'un des boutons "Publier ...", tous les nouveaux fichiers 
+seront créés avec tous les dossiers nécessaires, toutes les données 
+copiées à partir des fichiers de travail et enfin les nouveaux fichiers 
+seront tous fermés. Cela garantit qu'ils ont tous les mêmes dates de "création" et "dernière modification".</p>
 
-While it is possible to move backwards and forwards through the tabs
-changing your project, the results are more predictable if you only do
-each stage in sequence. You can save the project settings at any time
-and will be offered the opportunity to change the name of the project.
-When you restart Pub2SDwizard and select an existing project all your
-previous work should be loaded for you and you can carry on from there.
+Bien qu'il soit 
+possible de se déplacer vers l'arrière et vers l'avant à travers les 
+onglets en changeant votre projet, les résultats sont plus prévisibles 
+si vous ne faites que chaque étape en séquence. Vous pouvez enregistrer les paramètres 
+du projet à tout moment et vous proposera la possibilité de modifier le nom du projet. Lorsque
+ vous redémarrez Pub2SDwizard et sélectionnez un projet existant, tous 
+vos travaux précédents devraient être chargés pour vous et vous pouvez 
+continuer à partir de là.
 
-We welcome any feedback and will endeavour to fix bugs as they
-are found. However 'Errors and Omissions are Expected', let the user
-beware!
-Again, be aware that individual applications and hardware may have
-implemented the ID3 standard
-differently and differ in their customary usage. Always test on the
-relevant application and hardware, no guarentees are given or implied!
+Nous nous félicitons de tout commentaire et nous nous efforcerons de corriger les 
+bugs tels qu'ils sont trouvés. Cependant, «Erreurs et omissions sont attendues», 
+laissez l'utilisateur se méfier! Encore une fois, sachez que les applications et le matériel individuels ont 
+peut-être implémenté le standard ID3 différemment et diffèrent selon 
+leur utilisation habituelle. Toujours tester sur l'application et le matériel pertinents, 
+aucune garantie n'est donnée ou implicite!
+
 
