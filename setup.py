@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="pub2sd_fr",
+    name="Pub2SDwizard",
     version="0.9.9.23",
     url="https://github.com/madskinner/pub2sd_fr",
     author="Mark Skinner",
