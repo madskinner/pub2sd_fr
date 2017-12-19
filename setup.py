@@ -2,8 +2,8 @@ import setuptools
 
 setuptools.setup(
     name="pub2sd_fr",
-    version="0.9.9.18",
-    url="https://github.com/madskinner/pub2sd",
+    version="0.9.9.23",
+    url="https://github.com/madskinner/pub2sd_fr",
     author="Mark Skinner",
     author_email="mark_skinner@sil.org",
     description="Publish MP3 files to SD cards",
