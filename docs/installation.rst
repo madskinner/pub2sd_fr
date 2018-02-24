@@ -20,13 +20,5 @@ Ensuite, double-cliquez simplement sur le fichier '.deb' et suivez les instructi
 Source Code
 _________
 
-La distribution du code source via PyPi suivra, toujours en testant ...
+Est disponible dans un dépôt github à l'adresse `madskinner/pub2sd2 <https://github.com/madskinner/pub2sd2>`_ 
 
-Ou pour installer le code source (Python 3.4 ou ultérieur requis) à partir de la ligne de commande, soit de type::
-
-    $ easy_install Pub2SDwizard
-
-ou, si vous avez virtualenvwrapper installé::
-
-    $ mkvirtualenv Pub2SDwizard
-    $ pip install Pub2SDwizard
