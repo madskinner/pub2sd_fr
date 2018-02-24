@@ -2,10 +2,12 @@
 Pub2SDwizard
 ===============================
 
-.. image:: https://img.shields.io/travis/madskinner/pub2sd.svg
-        :target: https://travis-ci.org/madskinner/pub2sd
+.. image:: https://img.shields.io/travis/madskinner/pub2sd2.svg?branch=master
+        :target: https://travis-ci.org/madskinner/pub2sd2
 
 Pourquoi utiliser Pub2SDwizard?
+
+Il suffit simplement de copier vos fichiers MP3 sur une carte SD, mais:
 
 * Dans quel ordre souhaitez-vous qu'ils jouent?
    - Depuis différents appareils et applications va les trier de différentes façons, comment les forcez-vous à jouer dans le commander vous désirez? - Alors qu'une simple radio peut lire des fichiers de Cartes SD ou clé USB, ils vont probablement trier uniquement sur les noms de fichiers, mais les téléphones mobiles peuvent les trier sur leur création ou la date de dernière modification ou d'autres balises de métadonnées incorporées. Les tags utilisés dépendent du marque et modèle paticulaire de téléphone et ou de l'application, il est en cours d'exécution.
