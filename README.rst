@@ -18,11 +18,11 @@ Pourquoi utiliser Pub2SDwizard?
 
 Pub2SDwizard peut vous guider à travers ce processus, en enregistrant décisions, l'exécution de vos ordres de tri ainsi que vous aider à faire plusieurs copies de la carte SD résultante à la fois.
 
-Liens relatifs::
+Liens relatifs:
 
-* Free software MIT license:: https://opensource.org/licenses/MIT
-* Documentation in English : https://pub2sd2.readthedocs.org.
-* Documentation en français: https://pub2sd_fr.readthedocs.org.
+* Free software MIT license :  https://opensource.org/licenses/MIT
+* Documentation in English :  https://pub2sd2.readthedocs.org.
+* Documentation en français : https://pub2sd_fr.readthedocs.org.
 
 Caractéristiques
 --------
