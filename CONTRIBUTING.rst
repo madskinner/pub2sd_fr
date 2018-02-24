@@ -13,7 +13,7 @@ Types de contributions
 Signaler les bugs informatiques
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-signaler les bugs informatiques à https://github.com/madskinner/pub2sd/issues.
+signaler les bugs informatiques à https://github.com/madskinner/pub2sd2/issues.
 
 Si vous signalez un bug, veuillez inclure:
 
@@ -42,7 +42,7 @@ ou même sur le Web dans les articles de blog, articles, et autres.
 Soumettre des commentaires
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-La meilleure façon d'envoyer des commentaires est de déposer un problème à https://github.com/madskinner/pub2sd/issues.
+La meilleure façon d'envoyer des commentaires est de déposer un problème à https://github.com/madskinner/pub2sd2/issues.
 
 Si vous proposez une fonctionnalité:
 
@@ -99,6 +99,6 @@ Avant de soumettre une "pull request", vérifiez qu'elle respecte les consignes 
     votre nouvelle fonctionnalité dans une fonction avec une docstring, et ajoutez le
     fonctionnalité à la liste dans README.rst.
 3. La 'pull request' devrait fonctionner pour Python 3.4, 3.5 et 3.6. Vérifier
-    https://github.com/madskinner/pub2sd/pull_requests
+    https://github.com/madskinner/pub2sd2/pull_requests
     et assurez-vous que les tests réussissent pour toutes les versions Python prises en charge.
 
