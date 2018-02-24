@@ -202,6 +202,12 @@ html_last_updated_fmt = '%b %d, %Y'
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'pub2sddoc'
 
+#supposed to suppress the 
+html_context = {
+"display_github": False, # Add 'Edit on Github' link instead of 'View page source'
+"last_updated": True,
+"commit": False,
+}
 
 # -- Options for LaTeX output ------------------------------------------
 
