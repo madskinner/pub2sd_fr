@@ -42,7 +42,8 @@ ou même sur le Web dans les articles de blog, articles, et autres.
 Soumettre des commentaires
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-La meilleure façon d'envoyer des commentaires est de déposer un problème à https://github.com/madskinner/pub2sd2/issues.
+La meilleure façon d'envoyer des commentaires est de déposer un problème à : 
+https://github.com/madskinner/pub2sd2/issues.
 
 Si vous proposez une fonctionnalité:
 
