@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="Pub2SDwizard",
-    version="0.9.9.23",
+    version="1.0.0",
     url="https://github.com/madskinner/pub2sd_fr",
     author="Mark Skinner",
     author_email="mark_skinner@sil.org",
@@ -14,7 +14,7 @@ setuptools.setup(
     package_data={'pub2sd': ['*.html', '*.json', '*.ico', 'images/*.png', 'images/*.jpg', 'images/*.ico']},
     install_requires=["lxml","psutil","mutagen","unidecode"],
     license='MIT',
-    classifiers=['Development Status :: 4 - Beta',
+    classifiers=['Development Status :: 5 - Production/Stable',
                  'Intended Audience :: End Users/Desktop',
                  'License :: OSI Approved :: MIT License',
                  'Programming Language :: Python :: 3',
