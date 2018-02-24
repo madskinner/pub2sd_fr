@@ -14,7 +14,7 @@ Pourquoi utiliser Pub2SDwizard?
  - Depuis différents appareils et applications
 va les trier de différentes façons, comment les forcez-vous à jouer dans le
 commander vous désirez?
- - Alors qu'une simple radio peut lire des fichiers de
+    - Alors qu'une simple radio peut lire des fichiers de
 Cartes SD ou clé USB, ils vont probablement trier uniquement sur les noms de fichiers,
 mais les téléphones mobiles peuvent les trier sur leur création ou la date de dernière modification
 ou d'autres balises de métadonnées incorporées. Les tags utilisés dépendent du
@@ -30,14 +30,15 @@ tout ce que vous avez entré pour votre projet précédent?
 classe les métadonnées existantes (par exemple, pour ajouter des jaquettes, corriger les droits d'auteur
 info, liste des contributeurs, ...)?
 
-<p>Pub2SDwizard peut vous guider à travers ce processus, en enregistrant
+Pub2SDwizard peut vous guider à travers ce processus, en enregistrant
 décisions, l'exécution de vos ordres de tri ainsi que vous aider à faire
 plusieurs copies de la carte SD résultante à la fois.
 
 Pub2Sdwizard-outils connexes.
 
 * Free software: MIT license
-* Documentation: https://pub2sd.readthedocs.org.
+* Documentation in English : https://pub2sd2.readthedocs.org.
+* Documentation en français: https://pub2sd_fr.readthedocs.org.
 
 Caractéristiques
 --------
