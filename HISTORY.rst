@@ -5,6 +5,10 @@ Histoire
 
 1.0.3(2018)
 ------------------
+Les boutons de l'onglet 'Éditer...' sont désactivés pendant que 'Déballage' est en cours.
+
+1.0.3(2018)
+------------------
 La barre d'état est mise à jour pour afficher le nom de chaque fichier MP3 «décompressé». Plutôt que de simplement «décompresser» le dossier, il est légèrement plus lent mais donne plus de retour à l'utilisateur.
 
 1.0.2(2018)
