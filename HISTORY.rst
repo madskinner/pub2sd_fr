@@ -3,7 +3,11 @@
 Histoire
 -------
 
-1.0.3(2018)
+1.0.5(2018)
+------------------
+'Mise à jour de la fenêtre principale durcie pour améliorer la fiabilité.'
+
+1.0.4(2018)
 ------------------
 Les boutons de l'onglet 'Éditer...' sont désactivés pendant que 'Déballage' est en cours.
 
